@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacar descuentos online</title><meta name="description" content="Calcula descuentos de manera completamente gratuita y online">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5100/5100039.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="home-main">
+        <div class="des-home-container">
+            <div class="des-home">
+                <div class="des-home-title">
+                    <h1>Descuentos</h1>
+                </div>
+                <input type="number" id="price" placeholder="Cantidad"><br>
+                <input type="number" id="discount" placeholder="Descuento" max="100">
+                <div class="discount-apply-button">
+                    <span class="discount-apply-button-span">CALCULAR</span>
+                </div>
+            </div>
+        </div>
+        <div class="total-home inactive">
+            El total a pagar es: <span class="total-span-discount" id="token-generator-DTs"></span>$ <br>
+            Estas ahorrando: <span class="total-span-saving" id="token-generator-STs"></span>$
+        </div>
+    </main>
+<script src="./main.js"></script>
+</body>
+</html>
