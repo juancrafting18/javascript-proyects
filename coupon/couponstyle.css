@@ -1,0 +1,60 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 62.5%;
+}
+main 
+{
+    background-image: url(https://i.pinimg.com/736x/f8/8c/33/f88c330f7db9b391ad6adafe469bab35.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-internal-container 
+{
+    background-color: rgba(148, 0, 0, 0.63);
+    border-radius: 20px;
+    width: 30%;
+    height: 50%;
+}
+.discount-coupon 
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.8rem;
+    margin: 45px 0px;
+    height: 100%;
+}
+.discount-coupon input 
+{
+    border: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.input-accept-button 
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2rem;
+    position: relative;
+    cursor: pointer;
+    margin-top: 150px;
+}
+.input-accept-button:hover 
+{
+    color: white;
+}
+
